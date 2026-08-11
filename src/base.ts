@@ -16,8 +16,8 @@
 
 import { colors, ms as milliseconds, monotonicTime } from 'playwright-core/lib/utilsBundle';
 // @ts-ignore
-import { iso } from 'playwright-core/lib/coreBundle';
-const { parseStackFrame } = iso;
+import { utils } from 'playwright-core/lib/coreBundle';
+const { parseStackFrame } = utils;
 
 import fs from 'fs';
 import path from 'path';
